@@ -1,0 +1,80 @@
+.technology-bg {
+  background-color: var(--color-11);
+  box-shadow: inset 0 80px var(--color-0), inset 0 -80px var(--color-0)
+}
+
+.technology {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.technology-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.technology-content {
+  padding-block: 16rem;
+}
+
+.technology-content > span {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.technology-content h2 {
+  margin-bottom: 3.2rem;
+}
+
+.technology-content > p {
+  margin-bottom: 2rem;
+}
+
+.technology a {
+  margin-bottom: 8rem;
+}
+
+.technology-benefits {
+  display: flex;
+  gap: 4rem
+}
+
+.technology-benefits h3 {
+  width: max-content;
+  margin-bottom: .8rem;
+}
+
+.technology-benefits img {
+  width: 24px;
+  margin-bottom: .8rem;
+}
+
+@media (max-width: 800px){
+  .technology-bg {
+    box-shadow: initial;
+  }
+  .technology {
+    grid-template-columns: 1fr;
+  }
+
+  .technology a {
+    margin-bottom: 6rem;
+  }
+
+  .technology-content {
+    padding-block: 6rem;
+  }
+
+  .technology-img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px){
+  .technology-benefits {
+    flex-direction: column;
+  }
+}
