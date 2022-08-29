@@ -1,13 +1,14 @@
 @import 'global/general.css';
+@import 'global/header.css';
 @import 'utilities/components.css';
 @import 'utilities/typography.css';
 @import 'utilities/colors.css';
-@import 'global/header.css';
 @import 'home/intro.css';
-@import 'global/bike-list.css';
+@import 'bikes/bike-list.css';
 @import 'home/technology.css';
 @import 'home/associates.css';
 @import 'home/comment.css';
 @import 'insurance/insurance.css';
 @import 'global/footer.css';
 @import 'term/terms.css';
+@import 'bikes/bikes.css';

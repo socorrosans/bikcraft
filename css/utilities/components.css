@@ -17,17 +17,36 @@
   max-width: max-content;
 }
 
+.button:hover {
+  background: linear-gradient(#FFB60D, #E59317);
+}
+
 .button.secondary {
   background: var(--color-10);
   color: var(--color-2);
 }
 
-.button:hover {
-  background: linear-gradient(#FFB60D, #E59317);
-}
-
 .button.secondary:hover{
   background: var(--color-9);
+}
+
+.button.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 1.2rem;
+  background: url("../../img/icones/seta.svg");
+  transition: transform .2s;
+}
+
+.button.arrow:hover::after {
+  transform: translateX(4px);
 }
 
 .link {
@@ -37,16 +56,16 @@
   text-transform: uppercase;
 }
 
+.link:hover {
+  color: var(--color-0);
+}
+
 .link::after {
   content: "";
   display: block;
   width: 100%;
   height: 4px;
   background-color: currentColor;
-}
-
-.link:hover {
-  color: var(--color-0);
 }
 
 @media (max-width: 600px){
