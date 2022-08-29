@@ -55,3 +55,24 @@
     font-size: 1.6rem;
   }
 }
+
+.title-bg {
+  background-color: var(--color-11);
+  padding-block: 6rem;
+}
+
+.title p {
+  margin-bottom: .4rem;
+}
+
+@media(max-width: 800px) {
+  .title-bg {
+    padding-block: 4rem;
+  }
+
+  .title p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+}
