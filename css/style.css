@@ -9,6 +9,8 @@
 @import 'home/associates.css';
 @import 'home/comment.css';
 @import 'insurance/insurance.css';
+@import 'insurance/benefits.css';
+@import 'insurance/asks.css';
 @import 'global/footer.css';
 @import 'term/terms.css';
 @import 'bikes/bikes.css';

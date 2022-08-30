@@ -10,6 +10,10 @@
   gap: 4rem;
 }
 
+#insurance .insurance {
+  padding-top: 0;
+}
+
 .insurance h2 {
   grid-column: 1 / -1;
 }
