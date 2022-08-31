@@ -15,6 +15,10 @@
   height: 5px;
 }
 
+#bike .bike-list ul {
+  padding: 0 0 2rem 0;
+}
+
 .bike-list ul::-webkit-scrollbar-thumb {
   background: var(--color-p1);
 }
