@@ -3,6 +3,7 @@
 @import 'utilities/components.css';
 @import 'utilities/typography.css';
 @import 'utilities/colors.css';
+@import 'utilities/form.css';
 @import 'home/intro.css';
 @import 'bikes/bike-list.css';
 @import 'home/technology.css';
@@ -12,6 +13,8 @@
 @import 'insurance/benefits.css';
 @import 'insurance/asks.css';
 @import 'global/footer.css';
+@import 'contact/contact.css';
+@import 'contact/stores.css';
 @import 'term/terms.css';
 @import 'bikes/bikes.css';
 @import 'bike/bike.css';
