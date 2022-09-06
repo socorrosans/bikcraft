@@ -72,4 +72,8 @@
   .bike-list ul {
     gap: 2rem;
   }
+
+  .bike-list h3 {
+    font-size: 2.4rem;
+  }
 }

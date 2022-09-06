@@ -52,6 +52,12 @@
   margin-bottom: .8rem;
 }
 
+@media (max-width: 1200px){
+  .font-2-l-b {
+    font-size: 1.6rem;
+  }
+}
+
 @media (max-width: 800px){
   .technology-bg {
     box-shadow: initial;

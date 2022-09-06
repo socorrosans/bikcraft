@@ -32,7 +32,8 @@
 
 .estimate-product {
   display: grid;
-  grid-template-columns: 1fr 1fr;background: var(--color-12);
+  grid-template-columns: 1fr 1fr;
+  background: var(--color-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
   align-content: start; 
   border-radius: 5px 0 0 5px;
   gap: 2rem;
@@ -105,7 +106,7 @@
 }
 
 .estimate-datas {
-  background: var(--color-0);
+  background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px right 20px;
   border-radius: 0 5px 5px 0;
 }
 
@@ -159,6 +160,7 @@
 
   .estimate-product {
     border-radius: 5px 5px 0 0;
+    background: var(--color-12);
   }
 
   .estimate-datas {
