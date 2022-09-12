@@ -1,0 +1,75 @@
+.asks {
+  padding-block: 12rem;
+}
+
+.asks h2 {
+  margin-bottom: 6rem;
+}
+
+.asks dl > div {
+  padding: 2rem;
+  border-radius: .4rem;
+}
+
+.asks dl > div:nth-child(odd) {
+  background-color: var(--color-1);
+}
+
+.asks button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: .8rem;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.asks button::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--color-p1);
+}
+
+.asks button::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background-image: url("../../img/icones/seta-abrir.svg");
+  transition: .3s;
+}
+
+.asks button:hover::after{
+  transform: rotate(180deg);
+}
+
+.js .asks dd {
+  display: none;
+}
+
+.asks dd {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  max-width: 80ch;
+  transition: transform .3s;
+}
+
+.asks dd.active {
+  display: block;
+  transform: translateY(6px);
+}
+
+@media (max-width: 800px) {
+  .asks {
+    padding-block: 6rem;
+  }
+
+  .asks h2 {
+    margin-bottom: 4rem;
+  }
+}

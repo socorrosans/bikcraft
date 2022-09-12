@@ -1,5 +1,6 @@
 @import 'global/general.css';
 @import 'global/header.css';
+@import 'utilities/animation/simple-anime.css';
 @import 'utilities/components.css';
 @import 'utilities/typography.css';
 @import 'utilities/colors.css';
